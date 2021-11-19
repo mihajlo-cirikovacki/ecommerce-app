@@ -21,7 +21,7 @@ function AllProducts() {
     }); 
   }, [category])
 
-  // ============= Functions:
+  // ================== Functions:
   // Get Category:
   function getCategoryProducts() {
     const filteredArticles = productsLoaded.filter(product => product.category === category);
