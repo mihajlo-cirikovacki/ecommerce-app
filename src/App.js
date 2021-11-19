@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+
+// Import Pages:
+import AllProducts from './pages/AllProducts';
+import ProductDetails from './pages/ProductDetails';
+import ProductShopingCard from './pages/ProductShopingCard';
+
+// Import Wraper Container:
+import Container from './components/layout/Container';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <Container>
+        <Routes>
+          <Route path="/" element={<AllProducts />}></Route>
+          <Route path="/details" element={<ProductDetails />}></Route>
+          <Route path="/shoping-card" element={<ProductShopingCard />}></Route>
+        </Routes>
+      </Container>
     </div>
   );
 }

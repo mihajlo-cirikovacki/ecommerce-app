@@ -1,0 +1,116 @@
+
+section {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  row-gap: 2rem;
+}
+
+.shopcard {
+  padding: .5rem;
+  display: flex;
+  gap: 2rem;
+  position: relative;
+}
+
+.close {
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.image {
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 1.6rem;
+  color: #77002e;
+  font-weight: 700;
+}
+
+.total {
+  width: 100%;
+  padding: .8rem;
+  background-color: antiquewhite;
+  grid-column: 1 / span 2;
+  font-size: 3rem;
+  color: #77002e;
+  font-weight: 700;
+  text-align: end;
+}
+
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  padding: .8rem 1.6rem; 
+  background-color: #77002e;
+  transition: all 400ms ease-out; 
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #77002e;
+}
+
+.info {
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+}
+
+.addRemoveBox {
+  display: flex;
+  gap: .5rem;
+}
+
+.quantity {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: .5rem;
+}
+
+.addRemoveBtn {
+  padding: .5rem;
+  border: none;
+  border-radius: 3rem;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 2.5rem;
+  transition: all 300ms ease-out;
+}
+
+.addRemoveBtn:hover { 
+  background-color: antiquewhite;
+}
+
+.icon {
+  
+}

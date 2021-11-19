@@ -1,0 +1,41 @@
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: opacity 300ms ease-in;
+  margin: 7rem 0;
+}
+
+.circle {
+  background-color: #fcb8d2;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  margin: .6rem;
+  animation: upDown 500ms ease-in infinite;
+}
+
+.circle:nth-of-type(2) {
+  animation-delay: 100ms;
+}
+.circle:nth-of-type(3) {
+  animation-delay: 200ms;
+}
+
+@keyframes upDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
