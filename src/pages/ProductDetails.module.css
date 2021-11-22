@@ -127,7 +127,12 @@
 @media (max-width: 37.5em) {
   .modal {
     width: 97%;
+  } 
+
+  .image img {
+    height: 25rem;
   }
+
   .description {
     padding: 0 2rem;
     font-size: 1.4rem;
