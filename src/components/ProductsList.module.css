@@ -11,6 +11,12 @@
 }
 
 
+@media (max-width: 65em) {
+  .list  {
+    grid-template-columns: 70rem;
+    gap: 3rem;
+  }
+}
 
 
 

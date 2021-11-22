@@ -57,7 +57,16 @@
   color: #851a43;
 }
 
+/* Tab-lan 1200px */
+@media (max-width: 75em) {
+  .modalContainer {
+    width: 70%;
+  }
+}
 
 
-
-
+@media (max-width: 65em) {
+  .modalContainer {
+    width: 90%;
+  }
+}

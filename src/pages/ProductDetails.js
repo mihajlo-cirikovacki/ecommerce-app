@@ -1,8 +1,7 @@
 import classes from "./ProductDetails.module.css";
 
-
 function ProductDetails(props) {
- 
+
   return (
     <section className={classes.modal}>
       <span className={classes.close} onClick={props.close}>X</span>

@@ -38,7 +38,31 @@
   font-weight: 600;
 }
 
+/* Tab-land 1200px */
+@media (max-width: 75em) {
+  .section {
+    justify-content: space-between;
+    width: 110%;
+  }
+}
 
+@media (max-width: 65em) {
+  .section {
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 
+@media (max-width: 37.5em) {
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 
-
+  .btn {
+    padding: .4rem 1.2rem; 
+    font-size: 1.2rem;
+  }
+}

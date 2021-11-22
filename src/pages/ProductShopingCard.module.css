@@ -9,3 +9,10 @@ section {
   color: #888;
 }
 
+/* Tab-land 1200px */
+@media (max-width: 75em) {
+  section {
+    width: 90%;
+  }
+}
+
