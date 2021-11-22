@@ -66,3 +66,41 @@
 }
 
 
+/* Tab-lan 1200px */
+@media (max-width: 75em) {
+  .card {
+    width: 90%;
+  }
+
+  .conteiner {
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .card {
+    width: 85%;
+  }
+
+  .image img {
+    height: 35rem;
+    width: 35rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .card {
+    width: 45%;
+  }
+
+  .image img {
+    height: 24rem;
+    width: 24rem;
+  }
+
+  .conteiner {
+    margin-bottom: 2.4rem;
+  }
+}
+
+

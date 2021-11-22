@@ -61,7 +61,6 @@ main {
   text-align: end;
 }
 
-
 .btn {
   display: inline-block;
   border: none;
@@ -113,4 +112,26 @@ main {
 
 .icon {
   
+}
+
+@media (max-width: 65em) {
+  .container {
+   display: flex;
+   flex-direction: column;
+  } 
+}
+
+@media (max-width: 37.5em) {
+  .shopcard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .addRemoveBox {
+    justify-content: center;
+  }
+
+  .total {
+    text-align: center;
+  }
 }
